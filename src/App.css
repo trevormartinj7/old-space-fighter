@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column{
+  display: flex;
+}
+
+.empty{
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  margin: .5px;
+}
+
+.asteroid{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin: .5px;
+}
+
+.player-ship{
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  margin: .5px;
+  color:white;
+}
+
+.movable{
+  height: 20px;
+  width: 20px;
+  background-color: lightblue;
+  margin: .5px;
+}
